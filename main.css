@@ -1,0 +1,72 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Fixed width */
+header,
+main {
+    width: 1200px;
+    margin: 30px calc((100% - 1200px) / 2);
+    display: flex;
+}
+
+header {
+    background-color: #323B44;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Logo */
+img {
+    height: 100px;
+    width: 300px;
+    object-fit: contain;
+    object-position: left;
+    margin-left: 100px;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+/* Get a quote button */
+a:last-child {
+    margin-right: 100px;
+    border: 11px solid #3AAAC0;
+    border-radius: 20px;
+    width: 140px;
+    background-color: #3AAAC0;
+    text-align: center;
+}
+
+/* Get a quote on hover */
+.quote:hover {
+    background-color: #FBBF47;
+    border: 11px solid #FBBF47;
+    color: black;
+}
+
+/* Nav links on hover */
+a:hover {
+    background-color: #3AAAC0;
+    border: 11px solid #3AAAC0;
+    color: black;
+    border-radius: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+main {}
